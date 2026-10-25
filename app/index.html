@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1920">
+<title>App Catalogue</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+  <header class="top">
+    <div class="brand">App Catalogue</div>
+    <nav class="tabs" id="tabs"></nav>
+    <div class="conn" id="conn" aria-live="polite"></div>
+  </header>
+  <main id="screen"></main>
+  <div id="overlay" hidden></div>
+  <div id="toast" role="status" aria-live="polite" hidden></div>
+  <div class="hint" id="hint">Arrows: move &nbsp;·&nbsp; OK: select &nbsp;·&nbsp; Back: go back</div>
+</div>
+<script src="lib.js"></script>
+<script src="catalogue.js"></script>
+<script src="tbclient.js"></script>
+<script src="ui.js"></script>
+</body>
+</html>
